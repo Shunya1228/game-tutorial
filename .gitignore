@@ -1,0 +1,84 @@
+# =========================
+# Unity
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.unitypackage
+crashlytics-build.properties
+
+# Visual Studio / Rider cache
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# Unity asset store tools
+[Aa]ssets/AssetStoreTools*
+
+# =========================
+# Go
+# =========================
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+backend/bin/
+backend/main
+
+# Test binary
+*.test
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency directories
+vendor/
+
+# =========================
+# AWS / Secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+credentials
+credentials.json
+.aws/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# =========================
+# OS / IDE
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# VSCode
+.vscode/settings.json
+.vscode/launch.json
